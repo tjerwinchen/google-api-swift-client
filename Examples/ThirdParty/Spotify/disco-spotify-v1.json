@@ -39,7 +39,7 @@
         "artists": {
           "type": "array",
           "items": {
-            "type": "ArtistSimplified"
+            "$ref": "ArtistSimplified"
           }
         },
         "available_markets": {
@@ -51,14 +51,14 @@
         "copyrights": {
           "type": "array",
           "items": {
-            "type": "Copyright"
+            "$ref": "Copyright"
           }
         },
         "external_ids": {
           "type": "ExternalIds"
         },
         "external_urls": {
-          "type": "ExternalUrls"
+          "$ref": "ExternalUrls"
         },
         "genres": {
           "type": "array",
@@ -75,7 +75,7 @@
         "images": {
           "type": "array",
           "items": {
-            "type": "Image"
+            "$ref": "Image"
           }
         },
         "label": {
@@ -99,7 +99,7 @@
         "tracks": {
           "type": "array",
           "items": {
-            "type": "TrackSimplified"
+            "$ref": "TrackSimplified"
           }
         },
         "type": {
@@ -123,7 +123,7 @@
         "artists": {
           "type": "array",
           "items": {
-            "type": "ArtistSimplified"
+            "$ref": "ArtistSimplified"
           }
         },
         "available_markets": {
@@ -133,7 +133,7 @@
           }
         },
         "external_urls": {
-          "type": "ExternalUrls"
+          "$ref": "ExternalUrls"
         },
         "href": {
           "type": "string"
@@ -144,7 +144,7 @@
         "images": {
           "type": "array",
           "items": {
-            "type": "Image"
+            "$ref": "Image"
           }
         },
         "name": {
@@ -192,7 +192,7 @@
         "images": {
           "type": "array",
           "items": {
-            "type": "Image"
+            "$ref": "Image"
           }
         },
         "name": {
@@ -342,7 +342,7 @@
         "artists": {
           "type": "array",
           "items": {
-            "type": "ArtistSimplified"
+            "$ref": "ArtistSimplified"
           }
         },
         "available_markets": {
@@ -411,7 +411,7 @@
         "artists": {
           "type": "array",
           "items": {
-            "type": "ArtistSimplified"
+            "$ref": "ArtistSimplified"
           }
         },
         "available_markets": {
@@ -430,7 +430,7 @@
           "type": "boolean"
         },
         "external_urls": {
-          "type": "ExternalUrls"
+          "$ref": "ExternalUrls"
         },
         "href": {
           "type": "string"
@@ -442,10 +442,10 @@
           "type": "boolean"
         },
         "linked_from": {
-          "type": "TrackLink"
+          "$ref": "TrackLink"
         },
         "restriction": {
-          "type": "Restrictions"
+          "$ref": "Restrictions"
         },
         "name": {
           "type": "string"
@@ -472,7 +472,7 @@
       "type": "object",
       "properties": {
         "external_urls": {
-          "type": "ExternalUrls"
+          "$ref": "ExternalUrls"
         },
         "href": {
           "type": "string"
@@ -505,10 +505,10 @@
           "type": "string"
         },
         "external_urls": {
-          "type": "ExternalUrls"
+          "$ref": "ExternalUrls"
         },
         "followers": {
-          "type": "Followers"
+          "$ref": "Followers"
         },
         "href": {
           "type": "string"
@@ -519,7 +519,7 @@
         "images": {
           "type": "array",
           "items": {
-            "type": "Image"
+            "$ref": "Image"
           }
         },
         "product": {
@@ -560,7 +560,7 @@
           "description": "The URI to play. May be repeated."
         },
         "offset": {
-          "type": "Offset"
+          "$ref": "Offset"
         },
         "position_ms": {
           "type": "integer"
@@ -574,7 +574,7 @@
         "artists": {
           "type": "array",
           "items": {
-            "type": "ArtistFull"
+            "$ref": "ArtistFull"
           }
         }
       }
@@ -589,7 +589,7 @@
         "items": {
           "type": "array",
           "items": {
-            "type": "AlbumSimplified"
+            "$ref": "AlbumSimplified"
           }
         },
         "limit": {
